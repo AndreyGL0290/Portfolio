@@ -1,0 +1,116 @@
+body{
+    margin:0px;
+    background-color: #595b83;
+}
+
+header{
+    font-family:'Itim', cursive;
+    font-size:24px;
+    color:#f4abc4;
+    text-align:center;
+    padding-top:1%;
+    padding-bottom:1%;
+    letter-spacing:5px;
+    background-color:#060930;
+    border-bottom: 3px solid #f4abc4;
+}
+
+p, a{
+    text-transform: uppercase;
+    text-align: center;
+    margin:0px 0px 20px 0px;
+    font-family:'Itim', cursive;
+    font-size:14px;
+    color:#f4a9c3;
+}
+
+img{
+    width:394px;
+    height:294px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.image_container{
+    width:394px;
+    height:294px;
+    border:3px solid #f4abc4;
+    border-radius: 15px 15px 0px 0px;
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+
+.image_container img{
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+}
+
+.image_container img:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.content_container{
+    text-align: center;
+    display:block;
+    margin-bottom: 3%;
+}
+
+.content{
+    display: inline-block;
+    background-color:#333456;
+    width:400px;
+    height:400px;
+    border-radius:15px;
+}
+
+.central{
+    margin:0% 5% 0% 5%;
+}
+
+.text_content{
+    position: relative;
+}
+
+.button{
+    padding:10px 20px;
+    outline: none;
+    border:1px solid #f4a9c3;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #333456 0%,#904e95 100%);
+    background-size: 200% auto;
+    transition: .5s;
+}
+
+.button:hover {background-position: right center;}
+
+#contacts_container{
+    border-top:3px solid #f4abc4;
+    text-align:center;
+    color:#f4a9c3;
+    background-color:#060930;
+    width:100%;
+}
+
+.full_name{
+    text-transform: capitalize;
+    display: flex;
+    margin:auto;
+}
+
+.contacts{
+    display:inline-block;
+}
+
+.personal_info{
+    display:inline-block;
+}
+
+.social_buttons{
+    margin: auto;
+    text-transform: capitalize;
+}
+
+.social_img{
+    width:20px;
+    height:20px;
+    border-radius: 0px;
+}
