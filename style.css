@@ -1,6 +1,7 @@
 body{
     margin:0px;
     background-color: #595b83;
+    text-align: center;
 }
 
 header{
@@ -49,6 +50,7 @@ img{
 }
 
 .content_container{
+    display:inline-block;
     text-align: center;
     display:block;
     margin-bottom: 3%;
@@ -56,6 +58,7 @@ img{
 
 .content{
     display: inline-block;
+    margin: 50px;
     background-color:#333456;
     width:400px;
     height:400px;
@@ -78,6 +81,10 @@ img{
     background-image: linear-gradient(to right, #333456 0%,#904e95 100%);
     background-size: 200% auto;
     transition: .5s;
+}
+
+#try_button{
+    margin-right: 10px;
 }
 
 .button:hover {background-position: right center;}
